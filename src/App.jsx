@@ -17,6 +17,7 @@ export default function App() {
         <Route path="/signout" element={<Signout />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/signout" element={<Signout />} />
       </Routes>
     </BrowserRouter>
   );
